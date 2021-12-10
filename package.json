@@ -18,5 +18,11 @@
   "homepage": "https://github.com/Shagens/Tech-Blog#readme",
   "devDependencies": {
     "jest": "^27.4.3"
+  },
+  "dependencies": {
+    "connect-session-sequelize": "^7.1.2",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "mysql2": "^2.3.3"
   }
 }
