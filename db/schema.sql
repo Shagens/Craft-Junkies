@@ -1,3 +1,3 @@
-ROP DATABASE IF EXISTS beauty_blog;
+ROP DATABASE IF EXISTS Tech_Blog;
 
-CREATE DATABASE beauty_blog;
+CREATE DATABASE tech_blog;
