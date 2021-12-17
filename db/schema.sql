@@ -1,0 +1,3 @@
+ROP DATABASE IF EXISTS beauty_blog;
+
+CREATE DATABASE beauty_blog;
