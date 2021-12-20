@@ -4,7 +4,8 @@
   "description": "blog",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -20,10 +21,14 @@
     "jest": "^27.4.3"
   },
   "dependencies": {
-    "connect-session-sequelize": "^7.1.2",
+    "bcrypt": "^4.0.1",
+    "connect-session-sequelize": "^6.1.1",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-handlebars": "^6.0.2",
     "express-session": "^1.17.2",
-    "mysql2": "^2.3.3"
-  }
+    "mysql2": "^2.3.3",
+    "sequelize": "^5.21.5"
+  },
+  "keywords": []
 }
