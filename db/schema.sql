@@ -1,3 +1,3 @@
-ROP DATABASE IF EXISTS Tech_Blog;
+ROP DATABASE IF EXISTS Craft_Junkies;
 
-CREATE DATABASE tech_blog;
+CREATE DATABASE craft_junkies;
