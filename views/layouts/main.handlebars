@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Craft Junkies</title>
   <link rel="stylesheet" href="/public/stylesheet/stylesheet.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  {{!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> --}}
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
@@ -18,13 +18,12 @@
       </h1>
       <nav>
        {{#if loggedIn}}
-       <a href="/">recent posts</a>
        |
        <a href="../dashboard.handlebars">dashboard</a>
        |
         <button id="logout" class="btn-no-style">logout</button>
         {{else}}
-        <a href="../../javascript/login.js">login</a>
+        <a href="../../public/javascript/login.js">login</a>
         {{/if}}
       </nav>
     </header>
