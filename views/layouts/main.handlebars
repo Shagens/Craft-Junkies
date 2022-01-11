@@ -20,11 +20,11 @@
        {{#if loggedIn}}
        <a href="/">recent posts</a>
        |
-       <a href="/dashboard.handlebars">dashboard</a>
+       <a href="../dashboard.handlebars">dashboard</a>
        |
         <button id="logout" class="btn-no-style">logout</button>
         {{else}}
-        <a href="./javascript/login.js">login</a>
+        <a href="../../javascript/login.js">login</a>
         {{/if}}
       </nav>
     </header>
@@ -37,7 +37,7 @@
   </div>
   
   {{#if loggedIn}}
-  <script src="/public/javascript/logout.js"></script>
+  <script src="../../public/javascript/logout.js"></script>
   {{/if}}
 
 </body>
